@@ -1,0 +1,109 @@
+body {
+  background-color: #FBFCF6; /* For standard color of all pages*/
+  font-family: verdana, serif;
+}
+
+hr {
+    border-style: dotted none none;
+    border-top-width: 5px;
+    color: gray;
+}
+
+/*********************************************************************************************************************************************************************************/
+.mainBody {
+  background-color: #FCFCFC; /* For standard color of all main bodies*/
+}
+
+.titleImg {
+  border-radius: 30%; /* For main logo sizing*/
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.subTitleTxt {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.txtCenter {
+  text-align: center; /* Aligning texts to center*/
+}
+
+.mainImgs {
+  height: 330px;    /* Standard Sizes for Shrimp Images*/
+  width: 330px;
+}
+
+.mainImgsTables {
+  border-spacing: 50px; /* Orgnization for product images and footer, also used to center images*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainImgs2 {
+  height: 300px;  /* Standard Sizes for Plant Images*/
+  width: 450px;
+}
+
+.mainBodySpacing {
+  width: 250px;    /* To seperate table of contents from products*/
+  padding-right: 75px;
+  vertical-align: top;
+}
+
+.marginRemoveTop { /* Margin Removal*/
+  margin-top: 0;
+}
+
+.marginRemoveBottom{ /* Margin Removal*/
+  margin-bottom: 0;
+}
+
+.mainTitleSizePosition { /* Main Title size*/
+  font-size: 52px;
+  position: absolute;
+  left: 41%;
+  display: inline-block;
+}
+
+.imgMiddle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer Stuff */
+.footerIconsMargins {
+  margin: 10px;
+  width: 40px;
+}
+
+.footerPositioningInsta {
+  position: absolute;
+  left: 47%;
+}
+
+.footerPositioningContact {
+  position: absolute;
+  left: 50%;
+}
+
+.footerShrimp1 {
+  margin: 0;
+  height: 70px;
+  width: 70px;
+}
+
+.footerShrimp2 {
+  margin: 0;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right: 0;
+}
+
+.hover:hover {
+  transform: scaleX(-1);
+}
+
+/*********************************************************************************************************************************************************************************/
