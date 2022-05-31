@@ -48,7 +48,7 @@ hr {
 
 .mainBodySpacing {
   width: 250px;    /* To seperate table of contents from products*/
-  padding-right: 75px;
+  position: absolute;
   vertical-align: top;
 }
 
@@ -107,3 +107,8 @@ hr {
 }
 
 /*********************************************************************************************************************************************************************************/
+.blank {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
