@@ -24,11 +24,16 @@ h5 {
 h6 {
   display: block;
   font-size: 0.9em;
-  margin-top: 2.33em;
-  margin-bottom: 2.33em;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 2.33em 0 2.33em 0;
   font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #BE7E5F;
 }
 /*********************************************************************************************************************************************************************************/
 .mainBody {
@@ -51,11 +56,6 @@ h6 {
   text-align: center; /* Aligning texts to center*/
 }
 
-.mainImgs {
-  height: 330px;    /* Standard Sizes for Shrimp Images*/
-  width: 330px;
-}
-
 .mainImgsTables {
   border-spacing: 50px; /* Orgnization for product images and footer, also used to center images*/
   margin: 0 auto;
@@ -65,49 +65,52 @@ h6 {
 
 .pinkFlamigoDiv{
   display: inline-block;
-  width: 80%;
-  margin-top: 30px;
+  width: 45%;
+  margin-top: 2%;
 }
 
 .redRootFloatersDiv{
-  width: 80%;
-  margin: 30px auto 70px 260px;
+  width: 40%;
+  display: inline-block;
 }
 
 .BuceDiv{
-  width: 80%;
-  margin: 30px auto 70px 260px;
+  width: 40%;
+  margin: 2% 0 2% 260px;
 }
 
 .fireRedDiv {
   display: inline-block;
-  width: 80%;
-  margin-top: 30px;
+  width: 40%;
+  margin: 2% 0 0 0;
 }
 
 .blueDreamDiv {
-  width: 80%;
-  margin: 30px auto 170px 260px;
+  width: 40%;
+  display: inline-block;
+  /*margin: 30px auto 170px 260px;*/
 }
 
 .orangeRilliDiv {
-  width: 80%;
-  margin: 30px auto 170px 260px;
+  width: 40%;
+  display: inline-block;
+  margin: 2% 0 0 260px;
 }
 
 .redRilliDiv {
-  width: 80%;
-  margin: 30px auto 170px 260px;
+  width: 40%;
+  display: inline-block;
 }
 
 .crystalRedDiv {
-  width: 80%;
-  margin: 30px auto 170px 260px;
+  width: 40%;
+  display: inline-block;
+  margin: 2% 0 0 260px;
 }
 
 .pintoDiv {
-  width: 80%;
-  margin: 30px auto 170px 260px;
+  width: 40%;
+  display: inline-block;
 }
 
 .mainImgs2Left {
@@ -183,6 +186,12 @@ margin-top: 0;
   width: 70px;
   position: absolute;
   right: 0;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  position: absolute;
+  left: calc(50% - 45px);
 }
 
 .hover:hover {
